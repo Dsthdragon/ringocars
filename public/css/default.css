@@ -1,0 +1,68 @@
+body {
+    min-height: 45rem;
+    font-family: tahoma;
+}
+
+#propertiesNav {
+    margin: 1px 5px;
+    padding: 0px;
+    border: 2px solid #ddd;
+    background-color: #292b2c !important;
+}
+
+#propertiesNav a {
+    border-bottom: 2px solid #fff;
+}
+.adminNavLink {
+    background-color: #292b2c;
+}
+.adminNavLink a {
+    color: #ccc !important;
+}
+.adminNavLink .nav-item{
+    border-bottom: 2px solid #ddd;
+}
+
+.card-selected-blue {
+    border-color: #0275d8;
+    border-width: 2px;
+}
+
+
+.mr-auto .active {
+    border-bottom: 2px ridge  #ffff00;
+}
+.dropdown-menu{
+    background-color: #672D93;
+    color: #ffffff;
+    /**border-bottom: 1rem solid #ffff00; **/
+}
+.dropdown-link{
+    padding: .5rem;
+    color: #ffff00 !important;
+}
+.dropdown-toggle::after {
+    display:none;
+}
+.dropdown-link:hover {
+    color: #fff !important;
+}
+.dropdown-div
+{
+    display: block;
+    width: 100%;
+    padding: 3px 1.5rem;
+    clear: both;
+    font-weight: normal;
+    color: #292b2c;
+    text-align: inherit;
+    white-space: nowrap;
+    background: none;
+    border: 0;
+    border-bottom: 1px solid #ffff00;
+
+}
+.dropdown-div:hover{
+    border-bottom: 1px solid #ffffff;
+}
+.dropdown-link-text { margin-right: 1rem; }
